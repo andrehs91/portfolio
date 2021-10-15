@@ -3,10 +3,24 @@ body {
 }
 
 .icon {
+    color: #198754;
     margin-left: .6rem;
     padding: 0;
     height: 2.4rem;
     width: 2.4rem;
+    transition: color .15s ease-in-out;
+}
+.icon:hover,
+.icon:active {
+    color: #157347;
+}
+
+.card-header {
+    transition: background-color .15s ease-in-out;
+}
+
+.card-header:hover {
+    background-color: #157347 !important;
 }
 
 .card-header,
