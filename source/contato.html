@@ -1,0 +1,27 @@
+<div class="py-3 bg-white">
+    <section id="contato" class="container">
+        <h2 class="mb-3">Contato</h2>
+        <form method="POST" action="/enviar-email" class="mb-3">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="nome@dominio.com" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">Preencha com atenção!</div>
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Assunto</label>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensagem</label>
+                <textarea class="form-control" name="message" id="message" rows="3" placeholder="..." required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-success px-5">Enviar</button>
+            </div>
+        </form>
+    </section>
+</div>

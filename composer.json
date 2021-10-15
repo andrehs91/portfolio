@@ -1,0 +1,14 @@
+{
+    "name": "andrehs91/portfolio",
+    "description": "Landing page do portfolio",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "authors": [
+        {
+            "name": "Andre Henrique dos Santos",
+            "email": "andrehenriquetech@gmail.com"
+        }
+    ]
+}
